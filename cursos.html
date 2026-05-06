@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Cursos · Karina Benito</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,700&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,400&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<link rel="stylesheet" href="home.css" />
+<link rel="stylesheet" href="cursos.css" />
+</head>
+<body data-screen-label="Cursos">
+
+<header class="site-header scrolled">
+  <div class="container nav">
+    <a href="index.html" class="brand">
+      <img src="assets/logo.webp" alt="Karina Benito" />
+      <span class="brand-text"><span class="brand-name">Karina Benito</span><span class="brand-sub">Escuela de Vida</span></span>
+    </a>
+    <nav class="nav-links">
+      <a href="index.html">Inicio</a>
+      <a href="sesiones.html">Sesiones</a>
+      <a href="cursos.html" class="active">Cursos</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+    <a href="contacto.html" class="nav-cta">Reservar sesión →</a>
+    <button class="menu-btn" aria-label="Menú"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 6h18M3 12h18M3 18h18"/></svg></button>
+  </div>
+</header>
+
+<div class="mobile-nav">
+  <div class="top">
+    <a href="index.html" class="brand"><img src="assets/logo.webp" alt="Karina Benito" /><span class="brand-text"><span class="brand-name">Karina Benito</span><span class="brand-sub">Escuela de Vida</span></span></a>
+    <button class="menu-btn mobile-close" aria-label="Cerrar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 6l12 12M6 18L18 6"/></svg></button>
+  </div>
+  <div class="links"><a href="index.html">Inicio</a><a href="sesiones.html">Sesiones</a><a href="cursos.html">Cursos</a><a href="contacto.html">Contacto</a></div>
+</div>
+
+<section class="page-hero">
+  <div class="dotted-ring" style="top: -120px; right: -180px;"></div>
+  <div class="container">
+    <span class="eyebrow reveal">Formaciones · Talleres · Recursos</span>
+    <h1 class="reveal">Aprendé, sané<br/>y <em class="italic-serif">crecé.</em></h1>
+    <p class="reveal">Programas pensados para acompañarte en tu proceso personal y, si querés, profesionalizar tu camino como terapeuta holística.</p>
+  </div>
+</section>
+
+<!-- Filters -->
+<section class="cursos-filters">
+  <div class="container">
+    <div class="filters-row reveal">
+      <button class="chip active" data-filter="all">Todas</button>
+      <button class="chip" data-filter="formacion">Formaciones largas</button>
+      <button class="chip" data-filter="taller">Talleres</button>
+      <button class="chip" data-filter="online">Online</button>
+      <button class="chip" data-filter="presencial">Presencial</button>
+    </div>
+  </div>
+</section>
+
+<!-- Featured course -->
+<section class="featured-course">
+  <div class="container featured-grid reveal">
+    <div class="featured-img">
+      <img src="assets/numerologia-pendulo.jpg" alt="Decodificación Biológica" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; border-radius:16px;" />
+      <span class="featured-badge">Inscripción abierta</span>
+    </div>
+    <div class="featured-text">
+      <span class="eyebrow">Formación destacada</span>
+      <h2>Decodificación<br/>Biológica.</h2>
+      <p class="lead">Una formación de 12 semanas para entender el síntoma como información y aprender a decodificar conflictos biológicos en tu vida y la de tus consultantes.</p>
+      <div class="featured-meta">
+        <div><span>Duración</span><strong>12 semanas</strong></div>
+        <div><span>Modalidad</span><strong>Online en vivo</strong></div>
+        <div><span>Inicio</span><strong>15 marzo 2026</strong></div>
+        <div><span>Inversión</span><strong>Gratis · pre-curso</strong></div>
+      </div>
+      <div class="featured-cta">
+        <a href="contacto.html" class="btn btn-primary">Inscribirme <span class="btn-arrow">→</span></a>
+        <a href="#programa" class="btn btn-outline">Ver programa</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- All courses grid -->
+<section class="all-courses">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Todos los programas</span>
+      <h2>Elegí el camino que <em class="italic-serif">resuene</em><br/>con tu momento.</h2>
+    </div>
+    <div class="courses-grid reveal-stagger">
+
+      <article class="course-card">
+        <div class="course-img"><img src="assets/numerologia-pendulo.jpg" alt="Decodificación Biológica" /><span class="course-tag">Destacado</span></div>
+        <div class="course-body">
+          <span class="course-cat">Formación · 12 semanas · Online</span>
+          <h3>Decodificación Biológica</h3>
+          <p>Aprendé a leer el cuerpo: cada síntoma es información del inconsciente biológico.</p>
+          <div class="course-foot"><span class="course-price">Gratis</span><a href="contacto.html" class="course-link">Inscribirme →</a></div>
+        </div>
+      </article>
+
+      <article class="course-card">
+        <div class="course-img"><img src="assets/numerologia-mapa.jpg" alt="Dibujo Sistémico" /><span class="course-tag">Destacado</span></div>
+        <div class="course-body">
+          <span class="course-cat">Formación · 8 semanas · Online</span>
+          <h3>Dibujo Sistémico</h3>
+          <p>Una herramienta visual para mapear vínculos, sistemas y memorias familiares.</p>
+          <div class="course-foot"><span class="course-price">Gratis</span><a href="contacto.html" class="course-link">Inscribirme →</a></div>
+        </div>
+      </article>
+
+      <article class="course-card">
+        <div class="course-img"><img src="assets/familia-constelacion.jpg" alt="Transgeneracional" /></div>
+        <div class="course-body">
+          <span class="course-cat">Formación · 10 semanas · Online</span>
+          <h3>Formación Transgeneracional</h3>
+          <p>"Quien no conoce su historia, tiende a repetirla". Honrá, liberá y trascendé tu árbol genealógico.</p>
+          <div class="course-foot"><span class="course-price">USD 20</span><a href="contacto.html" class="course-link">Comprar →</a></div>
+        </div>
+      </article>
+
+      <article class="course-card">
+        <div class="course-img"><img src="assets/tarot-laptop.jpg" alt="Registros Akáshicos" /></div>
+        <div class="course-body">
+          <span class="course-cat">Taller · 6 encuentros · Online</span>
+          <h3>Apertura de Registros</h3>
+          <p>Iniciación práctica para abrir tu propio registro y leer con respeto y discernimiento.</p>
+          <div class="course-foot"><span class="course-price">USD 80</span><a href="contacto.html" class="course-link">Inscribirme →</a></div>
+        </div>
+      </article>
+
+      <article class="course-card">
+        <div class="course-img"><img src="assets/tarot-cartas.jpg" alt="Linaje Femenino" /></div>
+        <div class="course-body">
+          <span class="course-cat">Taller · 1 jornada · Online</span>
+          <h3>Sanación Linaje Femenino</h3>
+          <p>Una jornada para reconciliarte con la línea materna y sus historias no contadas.</p>
+          <div class="course-foot"><span class="course-price">USD 35</span><a href="contacto.html" class="course-link">Inscribirme →</a></div>
+        </div>
+      </article>
+
+      <article class="course-card">
+        <div class="course-img"><img src="assets/karina-caballo.png" alt="Constelaciones con caballos" /><span class="course-tag">Presencial</span></div>
+        <div class="course-body">
+          <span class="course-cat">Encuentro · 1 jornada · Salto AR</span>
+          <h3>Constelaciones con caballos</h3>
+          <p>Un encuentro al aire libre para comprender, soltar y dar el próximo paso.</p>
+          <div class="course-foot"><span class="course-price">USD 90</span><a href="contacto.html" class="course-link">Reservar →</a></div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<!-- PROGRAMA / SYLLABUS -->
+<section class="syllabus" id="programa">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Programa · Decodificación Biológica</span>
+      <h2>12 semanas, 4 módulos,<br/>una sola <em class="italic-serif">dirección.</em></h2>
+    </div>
+    <div class="syllabus-grid reveal-stagger">
+      <div class="module">
+        <span class="module-num">Módulo 01 · Semanas 1–3</span>
+        <h3>Fundamentos</h3>
+        <p>Origen de la decodificación, los tres cerebros, las leyes biológicas. Vocabulario común para empezar.</p>
+        <ul><li>El síntoma como información</li><li>Cerebro arcaico, límbico, neocórtex</li><li>Conflictos programantes</li></ul>
+      </div>
+      <div class="module">
+        <span class="module-num">Módulo 02 · Semanas 4–6</span>
+        <h3>El cuerpo habla</h3>
+        <p>Recorrido por sistemas y aparatos. Cómo escuchar lo que cada órgano expresa cuando aparece un síntoma.</p>
+        <ul><li>Sistema digestivo y sostén</li><li>Aparato respiratorio y vínculos</li><li>Piel, fronteras y contacto</li></ul>
+      </div>
+      <div class="module">
+        <span class="module-num">Módulo 03 · Semanas 7–9</span>
+        <h3>Linaje</h3>
+        <p>Cómo entra el árbol genealógico en escena: lealtades, programas heredados y memorias del clan.</p>
+        <ul><li>Proyecto-sentido</li><li>Síndromes de aniversario</li><li>Doble en el árbol</li></ul>
+      </div>
+      <div class="module">
+        <span class="module-num">Módulo 04 · Semanas 10–12</span>
+        <h3>Práctica</h3>
+        <p>Casos en vivo, supervisión grupal y entrega de un trabajo final acompañada paso a paso.</p>
+        <ul><li>Toma de caso</li><li>Devolución y derivación</li><li>Ética y encuadre</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TESTIMONIOS de cursos -->
+<section class="course-testimonials">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Lo que dicen las alumnas</span>
+      <h2>Voces de quienes ya<br/>transitaron una <em class="italic-serif">formación.</em></h2>
+    </div>
+    <div class="testimonials-grid reveal-stagger">
+      <article class="t-card">
+        <p>"La formación me ordenó internamente todo lo que venía intuyendo. Karina sostiene con presencia y técnica al mismo tiempo, no es algo común."</p>
+        <footer><strong>Verónica L.</strong><span>Decodificación Biológica · 2025</span></footer>
+      </article>
+      <article class="t-card">
+        <p>"Era la tercera formación que probaba en transgeneracional y la primera donde sentí que de verdad podía aplicarlo después en consulta."</p>
+        <footer><strong>Mariana T.</strong><span>Transgeneracional · 2024</span></footer>
+      </article>
+      <article class="t-card">
+        <p>"Llegué buscando una herramienta más y me fui con un cambio personal. Eso, para mí, es lo que distingue a esta escuela."</p>
+        <footer><strong>Paula G.</strong><span>Dibujo Sistémico · 2025</span></footer>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section class="cta-band">
+  <div class="container reveal">
+    <h2>¿Querés saber más?</h2>
+    <p>Escribinos y te enviamos el plan completo de la formación que te interese.</p>
+    <a href="contacto.html" class="btn btn-primary">Pedir información <span class="btn-arrow">→</span></a>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="grid">
+      <div class="brand-block">
+        <a href="index.html" class="brand brand-light"><img src="assets/logo.webp" alt="Karina Benito" /><span class="brand-text"><span class="brand-name">Karina Benito</span><span class="brand-sub">Escuela de Vida</span></span></a>
+        <p>Transformación emocional real, aquí y ahora. Acompañamos procesos personales con respeto, calidez y profesionalismo.</p>
+        <div class="socials">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 22v-9h3l1-4h-4V6.5C13 5.5 13.5 5 14.5 5H17V1.5C16.5 1.4 15 1 13.5 1c-3 0-5 1.8-5 5v3H5v4h3.5v9H13z"/></svg></a>
+          <a href="#" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14c-.3-.1-1.7-.8-2-.9-.3-.1-.4-.1-.6.1-.2.3-.7.9-.9 1.1-.2.2-.3.2-.6.1-.3-.1-1.2-.4-2.3-1.4-.8-.7-1.4-1.7-1.6-2-.2-.3 0-.4.1-.6.1-.1.3-.3.4-.5.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5-.1-.1-.6-1.5-.9-2-.2-.5-.5-.4-.6-.4h-.5c-.2 0-.5.1-.7.4-.3.3-1 1-1 2.4 0 1.4 1 2.8 1.2 3 .1.2 2 3 4.8 4.2.7.3 1.2.5 1.6.6.7.2 1.3.2 1.8.1.5-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.3zM12 2C6.5 2 2 6.5 2 12c0 1.8.5 3.5 1.3 5L2 22l5.2-1.4c1.4.8 3.1 1.2 4.8 1.2 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.3c-1.5 0-3-.4-4.3-1.2l-.3-.2-3.1.8.8-3-.2-.3C4.1 15 3.7 13.5 3.7 12c0-4.6 3.7-8.3 8.3-8.3s8.3 3.7 8.3 8.3-3.7 8.3-8.3 8.3z"/></svg></a>
+        </div>
+      </div>
+      <div><h4>Navegación</h4><ul><li><a href="index.html">Inicio</a></li><li><a href="sesiones.html">Sesiones</a></li><li><a href="cursos.html">Cursos</a></li><li><a href="contacto.html">Contacto</a></li></ul></div>
+      <div><h4>Servicios</h4><ul><li><a href="sesiones.html#decodificacion">Decodificación Biológica</a></li><li><a href="sesiones.html#transgeneracional">Transgeneracional</a></li><li><a href="sesiones.html#akashicos">Registros Akáshicos</a></li><li><a href="sesiones.html#caballos">Constelaciones con caballos</a></li></ul></div>
+      <div><h4>Contacto</h4><ul><li><a href="#">+54 9 11 5555-5555</a></li><li><a href="#">hola@karinabenito.com</a></li><li><a href="#">Salto, Buenos Aires · AR</a></li></ul></div>
+    </div>
+    <div class="legal"><span>© 2026 Karina Benito · Escuela de Vida.</span><span>Avalado por ACMTA · Asociación Civil Maestros de Terapias Holísticas</span></div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script>
+  // Filter chips (visual only — no real filtering since cards are static)
+  document.querySelectorAll('.filters-row .chip').forEach(c => {
+    c.addEventListener('click', () => {
+      document.querySelectorAll('.filters-row .chip').forEach(x => x.classList.remove('active'));
+      c.classList.add('active');
+    });
+  });
+</script>
+</body>
+</html>
